@@ -4,5 +4,5 @@ const produtos = [
     { id: 3, nome: 'Lapís', preco: 1.2}
 ];
 
-const nomes = produtos.map(produto => produto.nome);
-console.log(nomes);
+const produtoscaros = produtos.filter(produto => produto.preco > 5);
+console.log(produtoscaros);
